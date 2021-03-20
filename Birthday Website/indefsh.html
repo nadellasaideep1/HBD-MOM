@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    @media (max-width: 1024px) and (orientation: portrait){
+        body:after{
+          position: absolute;
+          z-index: 9999;
+          width: 100%;
+          top: 0;
+          bottom: 0;
+          content: "";
+          background: #212121 url(http://i.stack.imgur.com/sValK.png) 0 0 no-repeat; /* replace with an image that tells the visitor to rotate the device to landscape mode */
+          background-size: 100% auto;
+          opacity: 0.95;
+        }
+      }
+      </style>
+</head>
+<body>
+   
+</body>
+</html>
